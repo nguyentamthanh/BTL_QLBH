@@ -128,7 +128,10 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\NhapKhoController.cs" />
     <Compile Include="Controllers\PersonController.cs" />
+    <Compile Include="Controllers\PhieuNhapsController.cs" />
+    <Compile Include="Controllers\PhieuXuatsController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -200,6 +203,21 @@
     <Content Include="Views\Products\Details.cshtml" />
     <Content Include="Views\Products\Edit.cshtml" />
     <Content Include="Views\Products\Index.cshtml" />
+    <Content Include="Views\PhieuNhaps\Create.cshtml" />
+    <Content Include="Views\PhieuNhaps\Delete.cshtml" />
+    <Content Include="Views\PhieuNhaps\Details.cshtml" />
+    <Content Include="Views\PhieuNhaps\Edit.cshtml" />
+    <Content Include="Views\PhieuNhaps\Index.cshtml" />
+    <Content Include="Views\PhieuXuats\Create.cshtml" />
+    <Content Include="Views\PhieuXuats\Delete.cshtml" />
+    <Content Include="Views\PhieuXuats\Details.cshtml" />
+    <Content Include="Views\PhieuXuats\Edit.cshtml" />
+    <Content Include="Views\PhieuXuats\Index.cshtml" />
+    <Content Include="Views\NhapKho\Create.cshtml" />
+    <Content Include="Views\NhapKho\Delete.cshtml" />
+    <Content Include="Views\NhapKho\Details.cshtml" />
+    <Content Include="Views\NhapKho\Edit.cshtml" />
+    <Content Include="Views\NhapKho\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

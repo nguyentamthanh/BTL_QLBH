@@ -23,5 +23,11 @@ namespace BTL_QLBH.Models
         }
 
         public System.Data.Entity.DbSet<BTL_QLBH.Models.Product> Products { get; set; }
+
+        public System.Data.Entity.DbSet<BTL_QLBH.Models.PhieuNhap> PhieuNhaps { get; set; }
+
+        public System.Data.Entity.DbSet<BTL_QLBH.Models.PhieuXuat> PhieuXuats { get; set; }
+
+        public System.Data.Entity.DbSet<BTL_QLBH.Models.NhapKho> NhapKhoes { get; set; }
     }
 }
