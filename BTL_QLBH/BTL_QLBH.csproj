@@ -143,6 +143,7 @@
     <Compile Include="Models\OurDbContext.cs" />
     <Compile Include="Models\Person.cs" />
     <Compile Include="Models\PhieuNhap.cs" />
+    <Compile Include="Models\PhieuXuat.cs" />
     <Compile Include="Models\Process\StringProcess.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\QLBHDbContext.cs" />
