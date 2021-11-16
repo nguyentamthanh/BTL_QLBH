@@ -11,6 +11,14 @@ namespace BTL_QLBH.Models
    
         public virtual DbSet<Person> Persons { get; set; }
         public virtual DbSet<Employee> Employees { get; set; }
+        public virtual DbSet<Product> Products { get; set; }
+
+        public virtual DbSet<PhieuNhap> PhieuNhaps { get; set; }
+
+        public virtual DbSet<PhieuXuat> PhieuXuats { get; set; }
+
+        public virtual DbSet<NhapKho> NhapKhoes { get; set; }
+        public virtual DbSet<Account> Accounts { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -21,13 +29,5 @@ namespace BTL_QLBH.Models
              .Property(e => e.EmployeeId)
              .IsUnicode(false);        
         }
-
-        public System.Data.Entity.DbSet<BTL_QLBH.Models.Product> Products { get; set; }
-
-        public System.Data.Entity.DbSet<BTL_QLBH.Models.PhieuNhap> PhieuNhaps { get; set; }
-
-        public System.Data.Entity.DbSet<BTL_QLBH.Models.PhieuXuat> PhieuXuats { get; set; }
-
-        public System.Data.Entity.DbSet<BTL_QLBH.Models.NhapKho> NhapKhoes { get; set; }
     }
 }
