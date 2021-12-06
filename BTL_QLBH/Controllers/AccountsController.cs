@@ -48,8 +48,12 @@ namespace BTL_QLBH.Controllers
                 if(model == 1)
                 {
                     FormsAuthentication.SetAuthCookie(acc.UserName, true);
-                    return RedirectToAction("Index", "Home");
-                } 
+                 
+                    return RedirectToAction("Index", "NhapKho");
+                    return RedirectToAction("Index", "PhieuNhaps");
+                    return RedirectToAction("Index", "PhieuXuats");
+                    return RedirectToAction("Index", "Products");
+                }
                 else
                 {
                     ModelState.AddModelError("", "Thông tin đăng nhập không chính xác ");

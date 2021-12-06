@@ -15,6 +15,7 @@ namespace BTL_QLBH.Controllers
         private QLBHDbContext db = new QLBHDbContext();
 
         // GET: PhieuXuats
+        [Authorize]
         public ActionResult Index()
         {
             return View(db.PhieuXuats.ToList());

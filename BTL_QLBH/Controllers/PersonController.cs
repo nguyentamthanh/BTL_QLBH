@@ -18,6 +18,7 @@ namespace BTL_QLBH.Controllers
         private StringProcess strPro = new StringProcess();
 
         // GET: Person
+        [Authorize]
         public ActionResult Index()
         {
             return View(db.Persons.ToList());

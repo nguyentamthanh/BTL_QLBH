@@ -15,6 +15,7 @@ namespace BTL_QLBH.Controllers
         private QLBHDbContext db = new QLBHDbContext();
 
         // GET: NhapKho
+        [Authorize]
         public ActionResult Index()
         {
             return View(db.NhapKhoes.ToList());
