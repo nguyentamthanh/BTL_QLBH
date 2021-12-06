@@ -35,7 +35,6 @@ namespace BTL_QLBH.Controllers
             }
             return View(nhapKho);
         }
-
         // GET: NhapKho/Create
         public ActionResult Create()
         {
